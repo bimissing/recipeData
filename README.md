@@ -8,6 +8,7 @@ Each instruction contains a description and link of corresponding image.
 ### ImageInfo.csv:
 Image information contains Recipe_id, totalNumOfStep, FileName, Step_num, Nper (relative position), Category_num, SubsetNum, ImgLink
 #### 3 subsets:
+Beginning Stage Subset, Intermediate Stage Subset, Finishing Stage Subset
 Split based on the relative position of steps in the corresponding recipe.
 
 #### 20 categories:
