@@ -15,7 +15,7 @@ Beginning Stage Subset, Intermediate Stage Subset, Finishing Stage Subset
 
 Split based on the relative position of steps in the corresponding recipe.
 
-#### 20 categories:
+#### 20 categories: (In order)
 Potato, ginger, onion, pork, shrimp, chicken, corn, carrot, eggplant, shallot, tofu, spinach, sauce, chili, bread, dough, fish, egg, cucumber and soybean.
 
 
