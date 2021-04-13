@@ -1,4 +1,8 @@
-# recipeData
+# MIRecipe
+
+## Data Collection
+MIRecipe consists of 155,345 instructional images in recipes. Each recipe item includes recipeName, recipeID, brief descriptions, ingredients, seasonings, instructions (both text and image) and tips.
+
 
 ### recipeData.json:
 Crawlered from https://www.haodou.com/recipe
