@@ -14,31 +14,30 @@ with open('./recipeData.json','r') as f:
 print(data)
 
 #Create Image saving path
-imgpath = "./picture/"
-if not os.path.exists(imgpath):
-    # os.mkdir(imgpath)
-    os.makedirs(imgpath)
+img_path = "./picture/"
+if not os.path.exists(img_path):
+    os.makedirs(img_path)
 
 #Convert Dict to pdframe
-pandaData = pd.DataFrame(data.items(), columns=['recipeID', 'Value'])
+panda_data = pd.DataFrame(data.items(), columns=['recipeID', 'Value'])
 #Convert pdframe to list
-listDict = []
-for index, row in pandaData.iterrows():
-    listDict.append(row["Value"])
+list_dict = []
+for index, row in panda_data.iterrows():
+    list_dict.append(row["Value"])
 
-for item in listDict:
+for item in list_dict:
   #Obtain recipe ID
-  recipeID = item['recipeID']
+  recipe_ID = item['recipe_ID']
   # Step List
-  instructionsDict = item['instructions']
-  stepNum = 0
-  for i in instructionsDict:
+  instructions_dict = item['instructions']
+  step_num = 0
+  for i in instructions_dict:
     #Obtain StepNumber
-    stepNum = stepNum + 1
+    step_num = step_num + 1
     #Download Images
     try:
-        response = requests.get(i['imgLink'])
-        file = open(imgpath+recipeID+"_"+str(stepNum)+".jpg", "wb")
+        response = requests.get(i['img_link'])
+        file = open(img_path+recipe_ID+"_"+str(step_num)+".jpg", "wb")
         file.write(response.content)
         file.close()
     except:
