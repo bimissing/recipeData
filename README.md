@@ -11,7 +11,7 @@ This repo provides python source code for creating mini-ImageNet dataset from Im
 ## About MIRecipe
 **MIRecipe** consists of 239,973 instructional images in recipes. Each recipe item includes recipeName, recipeID, brief descriptions, ingredients, seasonings, instructions (both text and image) and tips.
 
-It consists of 26,725 recipes in Chinese, which include 155,345 multimedia steps (both text and image)  in total.
+It consists of 26,725 recipes in Chinese, which include 239,973 multimedia steps (both text and image)  in total.
 
 
 ## Requirements
