@@ -69,6 +69,6 @@ In this table, from a vertical perspective, thenumber of images in each subset o
 
 ## Train the model
 ### Food Subset-Based Recognition Model Selector
-If you want to train the model, just run `python3 trainRESNET.py`. You may need to change the configurations in `trainRESNET.py`. The parameter 'DIR_TRAIN_IMAGES' is the category list of train and 'DIR_TEST_IMAGES' is the category list of test. 'IMAGE_PATH' is the path of the image folder. During training, the checkpoint file will be saved.
+If you want to train the model, just run `python3 train.py` (vgg16 version)(can easily change the parameter to train as ResNet50 architecture or others). You may need to change the configurations in `train.py`. The parameter 'DIR_TRAIN_IMAGES' is the category list of train and 'DIR_TEST_IMAGES' is the category list of test. 'IMAGE_PATH' is the path of the image folder. During training, the checkpoint file will be saved.
 
 
