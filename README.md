@@ -63,7 +63,7 @@ Potato, ginger, onion, pork, shrimp, chicken, corn, carrot, eggplant, shallot, t
 
 <img src="https://github.com/bimissing/recipeData/blob/main/IMG/Division%20of%2020%20class%20of%20food.png" width="60%" height="60%">
 
-The statistics of the final training and test sets used in our experi-ment is shown in the Table above. 
+The statistics of the final training and test sets used in our experiment is shown in the table above. 
 
 In this table, from a vertical perspective, thenumber of images in each subset of each class is relatively averagedistribution. From a horizontal perspective of this table, the imagevolume of seasonings such as ginger and shallot classes are higherin each subset.
 
