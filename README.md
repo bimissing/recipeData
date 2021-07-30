@@ -22,7 +22,7 @@ It consists of 26,725 recipes in Chinese, which include 239,973 multimedia steps
 
 ## Datasets
 ### Conceptual Example of recipes on website:
-![image](https://github.com/bimissing/recipeData/blob/main/IMG/exampleMM.png =200)
+![image](https://github.com/bimissing/recipeData/blob/main/IMG/exampleMM.png){:height="50%" width="50%"}
 
 Structure of multimedia instructional recipe data.  Recipe instruction is a sequence of cooking steps, each of which consists of a text description and an associated image.
 
@@ -42,9 +42,9 @@ Each instruction contains a **text description and link of corresponding image**
 Image information contains Recipe_id, totalNumOfStep, FileName, Step_num, Nper (relative position), Category_num, SubsetNum, ImgLink
 
 ### Dataset Statistics:
-![image](https://github.com/bimissing/recipeData/blob/main/IMG/stats001.png)
-![image](https://github.com/bimissing/recipeData/blob/main/IMG/stats002.png)
-![image](https://github.com/bimissing/recipeData/blob/main/IMG/stats003.png)
+![image](https://github.com/bimissing/recipeData/blob/main/IMG/stats001.png){:height="50%" width="50%"}
+![image](https://github.com/bimissing/recipeData/blob/main/IMG/stats002.png){:height="50%" width="50%"}
+![image](https://github.com/bimissing/recipeData/blob/main/IMG/stats003.png){:height="50%" width="50%"}
 
 Figures above show the dataset statistics. Most recipes include more than four and less than 15 cooking steps, and the mode of the distribution of the number of cooking steps is 7. 
 
@@ -58,7 +58,7 @@ Split based on the relative position of steps in the corresponding recipe.
 ### 20 categories: (In order)
 Potato, ginger, onion, pork, shrimp, chicken, corn, carrot, eggplant, shallot, tofu, spinach, sauce, chili, bread, dough, fish, egg, cucumber and soybean.
 
-![image](https://github.com/bimissing/recipeData/blob/main/IMG/Division%20of%2020%20class%20of%20food.png)
+![image](https://github.com/bimissing/recipeData/blob/main/IMG/Division%20of%2020%20class%20of%20food.png){:height="50%" width="50%"}
 
 The statistics of the final training and test sets used in our experi-ment is shown in the Table above. 
 
