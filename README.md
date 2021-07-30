@@ -22,7 +22,7 @@ It consists of 26,725 recipes in Chinese, which include 239,973 multimedia steps
 
 ## Datasets
 ### Conceptual Example of recipes on website:
-![image](https://github.com/bimissing/recipeData/blob/main/IMG/exampleMM.png)
+![image](https://github.com/bimissing/recipeData/blob/main/IMG/exampleMM.png =200)
 
 Structure of multimedia instructional recipe data.  Recipe instruction is a sequence of cooking steps, each of which consists of a text description and an associated image.
 
